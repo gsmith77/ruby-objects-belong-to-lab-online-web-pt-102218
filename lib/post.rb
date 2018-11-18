@@ -2,6 +2,10 @@ class Post
   
   attr_accessor :title, :author, :name
   
-  def post
+  def title
+    post = Post.new
+    post.title = @title
+  end
+end
     
   
