@@ -4,8 +4,8 @@ class Post
   
   def title
     title = Post.new
-    author.title = @title
-    author.name = @name
+    post.title = @title
+    post.name = @name
   end
 
 
