@@ -4,7 +4,7 @@ class Artist
 
   def name
     artist = Artist.new
-    artist.name = name
+    artist.name = @name
   end
   
 
